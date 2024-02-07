@@ -44,6 +44,7 @@ The project is structured as follows:
    ```bash
    git clone https://github.com/shukladivya10/SearchEngineTest.git
    cd search-engine-testing
+   ```
 
 2. Install the required dependencies:
 
@@ -61,7 +62,10 @@ The project is structured as follows:
 ## Build and Run Tests
 
 To build and run the tests locally, use the provided shell script:
-
+```bash
+chmod +x ./build_locally.sh
+sh ./build_locally.sh
+```
 This script sets the environment variable, determines the TestNG XML file based on the environment, and then checks if the file exists before running the Maven build and test command.
 
 ## Viewing Test Results
