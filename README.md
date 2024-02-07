@@ -63,8 +63,8 @@ The project is structured as follows:
 To build and run the tests locally, use the provided shell script:
 
   ```bash
-  chmod +x build_locally.sh
-  ./build_locally.sh
+    chmod +x build_locally.sh
+    ./build_locally.sh
 
 This script sets the environment variable, determines the TestNG XML file based on the environment, and then checks if the file exists before running the Maven build and test command.
 
