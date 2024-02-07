@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SearchEnginesSuite">
+    <test name="GoogleTest">
+        <parameter name="searchEngine" value="google" />
+        <parameter name="searchQuery" value="google"/>
+        <parameter name="expectedLinkText" value="google"/>
+        <classes>
+            <class name="com.test.selenium.SearchEngineTest" />
+        </classes>
+    </test>
+
+    <test name="BingTest">
+        <parameter name="searchEngine" value="bing" />
+        <parameter name="searchQuery" value="bing"/>
+        <parameter name="expectedLinkText" value="bing"/>
+        <classes>
+            <class name="com.test.selenium.SearchEngineTest" />
+        </classes>
+    </test>
+
+    <test name="YahooTest">
+        <parameter name="searchEngine" value="yahoo" />
+        <parameter name="searchQuery" value="yahoo"/>
+        <parameter name="expectedLinkText" value="yahoo"/>
+        <classes>
+            <class name="com.test.selenium.SearchEngineTest" />
+        </classes>
+    >
+</suite>
