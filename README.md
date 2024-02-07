@@ -79,7 +79,7 @@ The Jenkinsfile defines the pipeline for building and testing the project in Jen
 
 1. Create a new Pipeline project in Jenkins.
 2. Set the pipeline script source to "Pipeline script from SCM."
-3. Specify the repository URL (e.g., https://github.com/shukladivya10/GoogleSearchTest.git).
+3. Specify the repository URL (e.g., https://github.com/shukladivya10/SearchEngineTest.git).
 4. Add the Jenkinsfile to the root of your project repository.
 
 ## Triggering Builds
