@@ -42,7 +42,7 @@ The project is structured as follows:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/shukladivya10/GoogleSearchTest.git
+   git clone https://github.com/shukladivya10/SearchEngineTest.git
    cd search-engine-testing
 
 2. Install the required dependencies:
